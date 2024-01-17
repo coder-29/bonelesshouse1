@@ -1,0 +1,89 @@
+@media (max-width: 600px) {
+    .slider p {
+      font-size: 9px; /* Adjust font size for smaller screens if needed */
+      margin-top: -150px;
+      width:300px;
+    }
+    /* .slider a{
+        font-size: 9px;
+        top: -50px;
+        left: 40%;
+    } */
+   footer{
+        padding: 20px;
+        font-size: 10px;
+        margin-bottom: 0;
+    }
+    .shark_content{
+        gap: 50px;
+        display:list-item;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .shark_location{
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .shark_contact_us img{
+        width: 15px;
+    }
+    .shark_location img{
+        width: 15px;
+    }
+  }
+
+
+
+
+  @media (min-width: 576px) {
+    .shark_menu_items {
+        max-width: 48%; /* Two items per row on small screens */
+    }
+}
+
+@media (min-width: 768px) {
+    .shark_menu_items {
+        max-width: 48%; /* Two items per row on medium screens */
+    }
+}
+
+@media (min-width: 992px) {
+    .shark_menu_items {
+        max-width: 31%; /* Three items per row on large screens */
+    }
+}
+
+@media (min-width: 1200px) {
+    .shark_menu_items {
+        max-width: 24%; /* Four items per row on extra-large screens */
+    }
+}
+
+
+  @media (min-width: 576px) {
+    .shark_header_container {
+        max-width: 100%; /* Two items per row on small screens */
+    }
+}
+
+@media (min-width: 768px) {
+    .shark_header_container {
+        max-width: 100%; /* Two items per row on medium screens */
+    }
+}
+
+@media (min-width: 992px) {
+    .shark_header_container {
+        max-width: 100%; /* Three items per row on large screens */
+    }
+}
+
+@media (min-width: 1200px) {
+    .shark_header_container {
+        max-width: 100%; /* Four items per row on extra-large screens */
+    }
+}
