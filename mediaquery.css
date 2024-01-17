@@ -1,7 +1,7 @@
 @media (max-width: 600px) {
     .slider p {
       font-size: 9px; /* Adjust font size for smaller screens if needed */
-      margin-top: -50px;
+/*       margin-top: -50px; */
       width:300px;
     }
     /* .slider a{
